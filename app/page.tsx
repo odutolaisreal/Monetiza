@@ -18,32 +18,33 @@ export default function Home() {
             />
           </Link>
 
-          <div className="hidden md:flex items-center gap-8">
-            <Link 
-              href="/"
-              className="bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transition-colors"
-            >
-              Home
-            </Link>
-            <Link 
-              href="/sign-up"
-              className="text-gray-600 hover:text-orange-500 transition-colors"
-            >
-              Sign up
-            </Link>
-            <Link 
-              href="/sign-in"
-              className="text-gray-600 hover:text-orange-500 transition-colors"
-            >
-              Sign in
-            </Link>
-            <Link 
-              href="/contact"
-              className="text-gray-600 hover:text-orange-500 transition-colors"
-            >
-              Contact
-            </Link>
-          </div>
+          <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
+  <Link 
+    href="/"
+    className="bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transition-colors"
+  >
+    Home
+  </Link>
+  <Link 
+    href="/sign-up"
+    className="text-gray-600 hover:text-orange-500 transition-colors"
+  >
+    Sign up
+  </Link>
+  <Link 
+    href="/sign-in"
+    className="text-gray-600 hover:text-orange-500 transition-colors"
+  >
+    Sign in
+  </Link>
+  <Link 
+    href="/contact"
+    className="text-gray-600 hover:text-orange-500 transition-colors"
+  >
+    Contact
+  </Link>
+</div>
+
         </div>
       </nav>
 
